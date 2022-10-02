@@ -14,6 +14,10 @@
 		2AFC18F128E5B8470082075E /* Custom_CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC18F028E5B8470082075E /* Custom_CarouselTests.swift */; };
 		2AFC18FB28E5B8470082075E /* Custom_CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC18FA28E5B8470082075E /* Custom_CarouselUITests.swift */; };
 		2AFC18FD28E5B8470082075E /* Custom_CarouselUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC18FC28E5B8470082075E /* Custom_CarouselUITestsLaunchTests.swift */; };
+		2AFC190A28E5BA490082075E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC190928E5BA490082075E /* Model.swift */; };
+		2AFC190C28E5BC810082075E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC190B28E5BC810082075E /* Home.swift */; };
+		2AFC190E28E5C5AA0082075E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC190D28E5C5AA0082075E /* Tab.swift */; };
+		2AFC191028E5C9640082075E /* CustomCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC190F28E5C9640082075E /* CustomCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		2AFC18F628E5B8470082075E /* Custom CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom CarouselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFC18FA28E5B8470082075E /* Custom_CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_CarouselUITests.swift; sourceTree = "<group>"; };
 		2AFC18FC28E5B8470082075E /* Custom_CarouselUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_CarouselUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AFC190928E5BA490082075E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2AFC190B28E5BC810082075E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2AFC190D28E5C5AA0082075E /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		2AFC190F28E5C9640082075E /* CustomCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				2AFC18E128E5B8420082075E /* ContentView.swift */,
 				2AFC18E328E5B8460082075E /* Assets.xcassets */,
 				2AFC18E528E5B8460082075E /* Preview Content */,
+				2AFC190928E5BA490082075E /* Model.swift */,
+				2AFC190B28E5BC810082075E /* Home.swift */,
+				2AFC190F28E5C9640082075E /* CustomCarousel.swift */,
+				2AFC190D28E5C5AA0082075E /* Tab.swift */,
 			);
 			path = "Custom Carousel";
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFC190A28E5BA490082075E /* Model.swift in Sources */,
 				2AFC18E228E5B8420082075E /* ContentView.swift in Sources */,
+				2AFC191028E5C9640082075E /* CustomCarousel.swift in Sources */,
+				2AFC190E28E5C5AA0082075E /* Tab.swift in Sources */,
+				2AFC190C28E5BC810082075E /* Home.swift in Sources */,
 				2AFC18E028E5B8420082075E /* Custom_CarouselApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
